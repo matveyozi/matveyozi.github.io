@@ -17,7 +17,11 @@ overlayClose.addEventListener('click', () => {
 });
 
 
-
+linkClick.forEach(item=> {
+    item.addEventListener('click' , ()=> {
+        menu.classList.remove('active');
+    })
+})
 
 
 // skills__lvl-num
